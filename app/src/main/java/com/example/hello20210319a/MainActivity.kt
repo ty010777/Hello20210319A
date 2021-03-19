@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
 
     fun add(v: View) {
         if(v.id == R.id.btn1){
-            counter ++
+            counter +=1
         }else{
             counter +=2
         }
