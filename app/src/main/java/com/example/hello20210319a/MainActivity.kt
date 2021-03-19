@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
         }else{
             counter +=2
         }
+
         txv.text = counter.toString()
     }
 }
