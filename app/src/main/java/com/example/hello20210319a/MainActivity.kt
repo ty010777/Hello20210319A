@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity() ,View.OnClickListener,View.OnLongClickL
         if(v == img){
             counter --
         }else{
-            counter+=2
+            counter+=3
         }
         txv.text = counter.toString()
         return true
