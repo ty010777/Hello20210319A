@@ -29,17 +29,6 @@ class MainActivity : AppCompatActivity() ,View.OnClickListener,View.OnLongClickL
 
     }
 
-//    fun add(v: View) {
-////        if(v.id == R.id.btn1){
-//        if(v == btn){
-//            counter +=1
-//        }else{
-//            counter +=2
-//        }
-//
-//        txv.text = counter.toString()
-//    }
-
     override fun onClick(v: View?) {
 
         if(v == btn1 || v == txv){
