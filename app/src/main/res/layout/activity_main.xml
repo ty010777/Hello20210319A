@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:onClick="add"
+    android:onClick="onClick"
+    android:orientation="vertical"
     android:visibility="visible"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/txv"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="0"
         android:textSize="36sp"
@@ -22,21 +23,48 @@
 
     <Button
         android:id="@+id/btn1"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="clip_horizontal"
         android:layout_weight="1"
-        android:onClick="add"
+        android:onClick="onClick"
         android:text="+1"
-        android:textSize="36sp" />
+        android:textSize="36sp"
+        android:visibility="visible" />
 
     <Button
         android:id="@+id/btn2"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="clip_horizontal"
         android:layout_weight="1"
-        android:onClick="add"
+        android:onClick="onClick"
         android:text="+2"
         android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="clip_horizontal"
+        android:layout_weight="1"
+        android:onClick="onClick"
+        android:text="歸零"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="clip_horizontal"
+        android:layout_weight="1"
+        android:onClick="onClick"
+        android:text="樂透"
+        android:textSize="36sp" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/dogecoin" />
 </LinearLayout>
